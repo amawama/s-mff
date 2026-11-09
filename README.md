@@ -1,5 +1,3 @@
-# S-MFF (3DPW) — `S_MFF_reablation_3dpw` core implementation
-
 This repository contains the **S-MFF core model code from `S_MFF_reablation_3dpw`**.
 It keeps the original algorithm and replaces the original server-specific absolute paths with CLI options. No V14 legacy code, RICH experiments, evaluation plotting code, datasets, or model checkpoints are bundled.
 
