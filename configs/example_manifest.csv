@@ -1,0 +1,2 @@
+exp_id,table_group,alpha,weight_mode,fixed_masked_w,base_masked_w,min_masked_w,max_masked_w,context_bonus,context_level,motion_adjust,motion_gamma,temporal_infill,temporal_lambda,temporal_max_gap,notes
+example_adaptive_temporal_lam018,example,0.25,adaptive_v8,0.3,0.3,0.1,0.45,False,off,False,0.0,True,0.18,8,Runnable example configuration; not an archived final manifest row
