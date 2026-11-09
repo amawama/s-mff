@@ -69,8 +69,6 @@ outputs/
 └── records/<exp_id>_report.csv
 ```
 
-`configs/example_manifest.csv` is an **example configuration**, not a copy of the original frozen experiment manifest. The original study's frozen result is named `reliability_temporal_lam018` in the evaluation metadata; to regenerate that particular run, use its original row in the `--manifest` CSV. For this repository, the main source code is the canonical artifact.
-
 ## Input format
 
 The original script reads a WHAM-parsed `.pth` using `joblib.load()`. Required keys include `vid`, `frame_id`, `bbox`, `features`, and `flipped_features`. Images must be available under `<image_root>/<sequence>/*.jpg`, indexed in lexicographic filename order by the stored integer `frame_id`.
@@ -86,4 +84,4 @@ The metadata uses `mask_bbox_xyxy` and `mask_area_full` (or `mask_area`). Missin
 
 ## Source provenance and licensing
 
-The S-MFF implementation derives from `S_MFF_reablation_3dpw`. WHAM and SAM3 are third-party software and are **not** relicensed or redistributed in this repository; follow the respective upstream terms. Add a license for the S-MFF-specific code only if you have the rights to license it.
+The S-MFF implementation derives from `S_MFF_reablation_3dpw`. WHAM and SAM3 are third-party software and are **not** relicensed or redistributed in this repository; follow the respective upstream terms. 
